@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+/* .mybody {
+    background-color: #4956aa;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 32px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+} */
+body{
+    background-image: url("MicrosoftTeams-image\ \(3\).png");
+    overflow-x: hidden;
+}
+.mybody{
+    left: 1rem;
+    position: relative;
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 60px;
+}
+.mrinspanfirst{
+    position: relative;
+    left: 3rem;
+}
+.mrinspansecond{
+    position: relative;
+    left: 7rem;
+}
+.cu h4{
+    font-family: cursive;
+    font-weight: 600; 
+}
+.cs h4{
+    font-family: cursive;
+    font-weight: 600; 
+}
+.mydiv{
+    display:inline-block;
+}
+.MuiAppBar-colorSecondary{
+    background-color: #4956aa !important;
+}
+/* .mydiv {
+    opacity: 0;
+    font-size: 50px;
+    display: contents !important;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.mydiv {     
+    font-weight: 900;
+    font-family: cursive;
+    animation: showup 7s;
+    animation-fill-mode: forwards;
+}
+.mydiv {
+  width:0px;
+  animation: reveal 7s;
+  animation-fill-mode: forwards ;
+}
+
+.mydiv span {
+  margin-left:-255px;
+  animation: slidein 7s;
+  animation-fill-mode: forwards ;
+} */
+.mybuttonmrin:hover{
+    border: none;
+    background-color: #4956aa;
+    color:#fff;
+}
+.btnstartmrin{
+    top: 4%;
+    right: 2rem;
+    position: absolute;
+}
+.mybuttonmrin{
+    font-family: cursive;
+    font-size: 27px;
+}
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:0;}
+    80% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-255px;opacity:0; }
+    20% { margin-left:-255px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px;opacity:1; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:0;width:0px;}
+    30% {opacity:0;width:255px;}
+    80% {opacity:0;}
+    100% {opacity:1;width:255px;}
+}
+.MuiToolbar-dense{
+    justify-content: center !important;
+}

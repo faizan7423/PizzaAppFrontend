@@ -1,0 +1,28 @@
+.cart-em {
+    border-radius: 73px;
+    text-align: center;
+    width: 267px;
+    height: 63px;
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    left: 580px;
+    color: blue;
+}
+.drop-cat.mrincat{
+    display: none;
+    padding: 1rem;
+    height: 55px;
+    border-radius: 50px;
+    z-index: 2;
+    position: fixed;
+    left: 80px;
+    top: 66px;
+    width: 150px;
+    color: bisque;
+    background-color: white;
+    border-color: white;
+}
+.mrincenter{
+    display: contents;
+}

@@ -1,0 +1,619 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+ 
+
+ 
+
+ 
+
+.toppingcontainer {
+
+  height:38rem;
+
+  background: url(http://photos.gograph.com/thumbs/CSP/CSP327/k34069739.jpg);
+
+  padding: 0;
+
+  margin: 0;
+
+  font-family: 'Open Sans';
+
+  -webkit-user-select: none;
+
+}
+
+ 
+
+ 
+
+ 
+
+.toppingcontainer .glow {
+
+  background: #000;
+
+}
+
+ 
+
+ 
+
+ 
+
+.toppingChooserContainer {
+
+    height:38rem;
+
+  background: #ff4d4d;
+
+  position: absolute;
+
+  width: 100%;
+
+  text-align: center;
+
+}
+
+ 
+
+ 
+
+ 
+
+.toppingChooserContainer h1 {
+
+  color: #ffffcc;
+
+  font-size: 28px;
+
+  cursor: default;
+
+}
+
+ 
+
+ 
+
+ 
+
+.toppingChooserContainer p {
+
+    background: #ffffcc;
+
+    color: #ff4d4d;
+
+    display: inline-block;
+
+    padding: 5px;
+
+    border-radius: 20%;
+
+    height: 40px;
+
+    cursor: pointer;
+
+    margin-top: 5px;
+
+    margin-left: 50px;
+
+    width: 140px;
+
+}
+
+ 
+
+ 
+
+ 
+
+.cutleryWords {
+
+  position: absolute;
+
+  margin-top: 150px;
+
+  margin-left: 30%;
+
+  margin-right: 25%;
+
+  margin-bottom: 100px;
+
+  background: #ffffcc;
+
+  color: #ff4d4d;
+
+  padding: 5px;
+
+  border-radius: 20px;
+
+  height: auto;
+
+  min-height: 50px;
+
+  cursor: default;
+
+}
+
+ 
+
+ 
+
+ 
+
+.pizzaContainer {
+
+  width: 300px;
+
+  height: 300px;
+
+  top: 30%;
+
+  margin-left: 42%;
+
+  margin-right: 25% !important;
+
+  /* position: absolute; */
+
+  text-align: center;
+
+}
+
+ 
+
+ 
+
+ 
+
+.plate {
+
+    top: 70%;
+
+    position: relative;
+
+  background: #fff;
+
+  height: 300px;
+
+  width: 300px;
+
+  border-radius: 12345px;
+
+}
+
+ 
+
+ 
+
+ 
+
+.crust {
+
+  background: #ffdd99;
+
+  height: 280px;
+
+  width: 280px;
+
+  border-radius: 12345px;
+
+  margin: 0 auto;
+
+  top: 3.5%;
+
+  left: 3.4%;
+
+  position: absolute;
+
+  box-shadow: 3px 3px 3px 3px #ccc;
+
+}
+
+ 
+
+ 
+
+ 
+
+.sauce {
+
+  background: #cc2900;
+
+  height: 240px;
+
+  width: 240px;
+
+  border-radius: 12345px;
+
+  position: absolute;
+
+  margin: 0 auto;
+
+  top: 7.2%;
+
+  left: 7.2%;
+
+}
+
+ 
+
+ 
+
+ 
+
+.cheese {
+
+  background: #ffffcc;
+
+  height: 220px;
+
+  width: 220px;
+
+  border-radius: 12345px;
+
+  top: 3.7%;
+
+  left: 3.7%;
+
+  position: absolute;
+
+  margin: 0 auto;
+
+}
+
+ 
+
+ 
+
+ 
+
+.pepperoni {
+
+  height: 30px;
+
+  width: 30px;
+
+  border-radius: 12345px;
+
+  background: #901A1D;
+
+  position: absolute;
+
+  top: 20%;
+
+  left: 27%;
+
+  box-shadow: -40px 75px 0 -5px #901A1D, 70px 95px 0 -2px #901A1D, 10px 65px 0 #901A1D, 30px -25px 0 -6px #901A1D, 30px 140px 0 -1px #901A1D, 100px 65px 0 -5px #901A1D, 70px 8px 0 -3px #901A1D;
+
+  /* display: none; */
+
+}
+
+ 
+
+ 
+
+ 
+
+.mushrooms {
+
+  /* display: none; */
+
+}
+
+ 
+
+ 
+
+ 
+
+.mushrooms .shroom1 {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 70%;
+
+}
+
+ 
+
+ 
+
+ 
+
+.mushrooms .shroom2 {
+
+  position: absolute;
+
+  top: 30%;
+
+  left: 30%;
+
+}
+
+ 
+
+ 
+
+ 
+
+.basil {
+
+  /* display: none; */
+
+  position: absolute;
+
+  width: 30px;
+
+  height: 30px;
+
+  background: #77b300;
+
+  border-radius: 0 50% 0 50%;
+
+  top: 130px;
+
+  left: 50px;
+
+  z-index: 2;
+
+  box-shadow: -25px -95px 0 -5px #77b300, 80px -120px 0 -2px #77b300, 100px 5px 0 #77b300, 40px -45px 0 -5px #77b300, 70px 45px 0 #77b300;
+
+}
+
+ 
+
+ 
+
+ 
+
+.tomatoes {
+
+  /* display: none; */
+
+}
+
+ 
+
+ 
+
+ 
+
+.tomatoes .tom1 {
+
+  position: absolute;
+
+  height: 80px;
+
+  top: 35px;
+
+  left: 70px;
+
+  -moz-transform: scaleX(-1);
+
+  -o-transform: scaleX(-1);
+
+  -webkit-transform: scaleX(-1);
+
+  transform: scaleX(-1);
+
+  filter: FlipH;
+
+  -ms-filter: "FlipH";
+
+}
+
+ 
+
+ 
+
+ 
+
+.tomatoes .tom2 {
+
+  position: absolute;
+
+  height: 80px;
+
+  top: 125px;
+
+  left: 50px;
+
+}
+
+ 
+
+ 
+
+ 
+
+.olives {
+
+  height: 300px;
+
+  width: 51px;
+
+  border-radius: 12345px;
+
+  background: url("http://www.clker.com/cliparts/T/U/f/4/E/G/totetude-black-olive-pizza-topping.svg");
+
+  position: absolute;
+
+  top: -50%;
+
+  left: 7%;
+
+  /* display: none; */
+
+}
+
+ 
+
+ 
+
+ 
+
+/* .olives::before {
+
+  height: 300px;
+
+  width: 51px;
+
+  border-radius: 12345px;
+
+  content: url("http://www.clker.com/cliparts/T/U/f/4/E/G/totetude-black-olive-pizza-topping.svg");
+
+  position: absolute;
+
+  top: 13%;
+
+  left: 175%;
+
+} */
+
+ 
+
+ 
+
+/*
+
+.olives::after {
+
+  height: 300px;
+
+  width: 51px;
+
+  border-radius: 12345px;
+
+  content: url("http://www.clker.com/cliparts/T/U/f/4/E/G/totetude-black-olive-pizza-topping.svg");
+
+  position: absolute;
+
+  top: -21%;
+
+  left: 87%;
+
+} */
+
+ 
+
+ 
+
+ 
+
+.forkContainer {
+
+  height: 100px;
+
+  width: 100px;
+
+  position: absolute;
+
+  top: 53%;
+
+  left: 120%;
+
+  transform: rotate(-90deg);
+
+}
+
+ 
+
+ 
+
+ 
+
+.forkContainer .fork {
+
+  z-index: 6999;
+
+  width: 132px;
+
+}
+
+ 
+
+ 
+
+ 
+
+.plateContainer .smallPlate {
+
+  position: absolute;
+
+  top: 110%;
+
+  left: 9%;
+
+  background: transparent;
+
+  height: 225px;
+
+}
+
+ 
+
+ 
+
+ 
+
+.knifeContainer .knife {
+
+  z-index: 6999;
+
+  position: absolute;
+
+  height: 132px;
+
+  left: -20%;
+
+  top: 42%;
+
+}
+
+ 
+
+ 
+
+ 
+
+@media screen and (max-width: 925px) {
+
+  .cutleryWords {
+
+    display: none;
+
+  }
+
+}
+
+ 
+
+ 
+
+ 
+
+@media screen and (max-width: 680px) {
+
+  .pizzaContainer {
+
+    margin-left: 16%;
+
+    margin-top: 20px;
+
+  }
+
+ 
+
+ 
+
+ 
+
+  .fork {
+
+    margin-top: 0px;
+
+  }
+
+}

@@ -1,0 +1,44 @@
+.MuiButton-containedPrimary{
+    font-family: cursive !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    background-color: #3f51b5 !important;
+}
+.MuiButton-containedPrimary:hover{
+    color: #3f51b5 !important;
+    background-color: #fff !important;
+}
+.MuiButton-containedSecondary:hover{
+    color: #f50057;
+    background-color: #fff !important;
+}
+.MuiButton-containedSecondary{
+    font-family: cursive !important;
+    font-weight: 600 !important;
+}
+body{
+    background-color: #303f9fe0 !important;
+}
+.MuiTypography-alignCenter {
+    color: #36459a !important;
+    font-weight: 900 !important;
+    font-family: cursive !important;
+    text-align: center !important;
+}
+.login-form {
+    background-color: white !important;
+    position: fixed !important;
+    left: 400px !important;
+    top: 150px !important;
+    border-radius: 30px !important;
+    background-image: none !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.theregister{
+    font-family: cursive !important;
+}
+.register-form {
+    background-color: white Im !important;
+    background-image: none Im !important;
+}

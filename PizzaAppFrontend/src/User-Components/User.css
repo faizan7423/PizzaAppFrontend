@@ -1,0 +1,11 @@
+.register-form {
+    background-color: white;
+    position: fixed;
+    left: 400px;
+    top: 80px;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background-image: none;
+    background-size: cover;
+}
